@@ -1,0 +1,21 @@
+//sum of even index
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int arr1[10],sum =0;
+int i;
+for(i=0;i<10;i++)
+{
+printf("Enter first Array  Element");
+scanf("%d",&arr1[i]);
+}
+for(i=0;i<10;i++)
+{
+if(arr[i]%2==0)
+sum=sum+arr[i];
+printf("\n%d",sum);
+}
+getch();
+}

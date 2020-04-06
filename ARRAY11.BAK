@@ -1,0 +1,24 @@
+//Max in array
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int arr[10],num,max=36768,min=32765;
+int i;
+for(i=0;i<10;i++)
+{
+printf("Enter Element");
+scanf("%d",&arr[i]);
+}
+for(i=0;i<10;i++)
+{
+if(arr[i]>max) //when arr[i] value is grater then max value then max==arrr[i]
+max=arr[i];
+
+  if(arr[i]<min)
+ min=arr[i] ;
+ }
+ printf("Max Number=%d min num=%d",max,min) ;
+getch();
+}

@@ -1,0 +1,29 @@
+//possitive or neg
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int arr[10];
+int i,num,pos=0,neg=0;
+for(i=0;i<10;i++)
+{
+printf("Enter Element");
+scanf("%d",&arr[i]);
+}
+printf("sum of array\n");
+for(i=1;i<=10;i++)//count even or odd element
+{
+if(arr[i]>=0)
+{
+ pos++;
+}
+else
+{
+neg++;
+}
+}
+printf("Even=%d odd=%d ",pos,neg);
+
+getch();
+}

@@ -1,0 +1,30 @@
+//print Array Element
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int arr[10],num,l=0;
+int i;
+for(i=0;i<10;i++)
+{
+printf("Enter Element");
+scanf("%d",&arr[i]);
+}
+
+printf("Enter Num u want to find in array");
+scanf("%d",&num);
+for(i=0;i<10;i++)
+{
+if(arr[i]==num)  //if arr[i]=n then l=1 is true and loop break else element not found
+{
+l=1;
+break;
+}}
+if(l==1)
+printf("Element found=%d",num);
+else
+printf("Not Found");
+
+getch();
+}

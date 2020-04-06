@@ -1,0 +1,25 @@
+//count a aray number and print
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int arr[10],num,c=0;
+int i;
+for(i=0;i<10;i++)
+{
+printf("Enter Element");
+scanf("%d",&arr[i]);
+}
+printf("Enter num u want to find\n");
+scanf("%d",&num);
+for(i=0;i<10;i++)
+{
+if(arr[i]==num)
+
+ c++;
+
+ }
+ printf("given num=%d",c) ;
+getch();
+}

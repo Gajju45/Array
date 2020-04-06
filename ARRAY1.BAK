@@ -1,0 +1,21 @@
+//print Array Element
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int arr[10];
+int i,num;
+for(i=0;i<10;i++)
+{
+printf("Enter Element");
+scanf("%d",&arr[i]);
+}
+printf("Enter Element is*************\n");
+for(i=0;i<10;i++)
+{
+
+printf("\t%d",arr[i]);
+}
+getch();
+}
